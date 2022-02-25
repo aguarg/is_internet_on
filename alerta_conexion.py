@@ -1,17 +1,3 @@
-"""
-HACER/ IDEAS:
-- el script debe correr y chequear cada 10 segundos si volvió internet haciendo un ping a Google
-- Si hay conexión, mostrar el alerta, hacer el sonido y terminar con un mensaje en la consola?. 
-
-
-- hacer ping a google
-- si es true, llamar la función notificar y terminar el script 
-- si es false, esperar 10 segundos y volver a verificar
-
-- opciones?: 1- terminar script; 2- chequear sonido de alerta
-"""
-
-
 # Modules used:
 import notify2
 from playsound import playsound
